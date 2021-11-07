@@ -25,7 +25,7 @@ static const char *colors[][3]      = {
 /* firefox rules */
 static const Rule rules[] = {
 		/* class      instance    title       tags mask     isfloating   monitor */
-		{ "Firefox",  NULL,       NULL,       0,       True,       -1 }//Change 1<<8 to 0.
+		{ "Firefox",  NULL,       NULL,       0,       0,       -1 }//Change 1<<8 to 0.
 };
 
 /* tagging */
