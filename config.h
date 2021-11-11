@@ -15,7 +15,7 @@ static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_cyan[]        = "#5f2b84";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -25,7 +25,7 @@ static const char *colors[][3]      = {
 /* firefox rules */
 static const Rule rules[] = {
 		/* class      instance    title       tags mask     isfloating   monitor */
-		{ "Firefox",  NULL,       NULL,       0,       True,       -1 }//Change 1<<8 to 0.
+		{ "Firefox",  NULL,       NULL,       0,       0,       -1 }//Change 1<<8 to 0.
 };
 
 /* tagging */
